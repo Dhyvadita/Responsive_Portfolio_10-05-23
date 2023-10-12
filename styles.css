@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
 :root {
-  --primary-color: #a855f7;
-  --primary-color-dark: #9333ea;
+  --primary-color: #55bcf7;
+  --primary-color-dark: #ea339b;
   --secondary-color: #ca8a04;
   --text-dark: #1f2937;
   --text-light: #6b7280;
@@ -175,7 +175,13 @@ ul li a:hover {
 
 .image img {
   width: min(25rem, 90%);
-  border-radius: 100%;
+  /* border-radius: 100%; */
+}
+
+.riwayat{
+  margin-top: 100px;
+  text-align: center;
+  
 }
 
 @media (width < 750px) {
